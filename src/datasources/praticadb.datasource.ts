@@ -6,7 +6,7 @@ const config = {
   name: 'praticadb',
   connector: 'mssql',
   host: 'localhost',
-  port: 1433,
+  port: 1434,
   user: 'sa',
   password: 'root12345',
   database: 'praticadb',

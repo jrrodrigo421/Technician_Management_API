@@ -11,6 +11,8 @@ import path from 'path';
 import {MySequence} from './sequence';
 import {CrudRestComponent} from '@loopback/rest-crud';
 
+
+
 export {ApplicationConfig};
 
 export class PraticaApplication extends BootMixin(
@@ -24,6 +26,8 @@ export class PraticaApplication extends BootMixin(
 
     // Set up default home page
     this.static('/', path.join(__dirname, '../public'));
+
+
 
     // Customize @loopback/rest-explorer configuration here
     this.configure(RestExplorerBindings.COMPONENT).to({
@@ -42,5 +46,7 @@ export class PraticaApplication extends BootMixin(
       },
     };
     this.component(CrudRestComponent);
+
+
   }
 }

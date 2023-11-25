@@ -12,6 +12,7 @@ export class Technician extends Entity {
   @property({
     type: 'string',
     required: true,
+    length: 100,
   })
   name: string;
 
