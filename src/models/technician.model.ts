@@ -19,6 +19,7 @@ export class Technician extends Entity {
   @property({
     type: 'number',
     required: true,
+    length: 11,
   })
   telephone: number;
 
@@ -34,11 +35,13 @@ export class Technician extends Entity {
   })
   address: string;
 
-  // Define well-known properties here
+  @property({
+    type: 'boolean',
+    default: false,
+  })
+  deleted?: boolean;
 
-  // Indexer property to allow additional data
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [prop: string]: any;
+
 
   constructor(data?: Partial<Technician>) {
     super(data);

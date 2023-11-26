@@ -18,7 +18,7 @@ if (require.main === module) {
   // Run the application
   const config = {
     rest: {
-      port: +(process.env.PORT ?? 3000),
+      port: +(process.env.PORT ?? 3030),
       host: process.env.HOST,
 
       gracePeriodForClose: 5000, // 5 seconds

@@ -23,8 +23,8 @@ import {TechnicianRepository} from '../repositories';
 export class TechnicianControllerController {
   constructor(
     @repository(TechnicianRepository)
-    public technicianRepository : TechnicianRepository,
-  ) {}
+    public technicianRepository: TechnicianRepository,
+  ) { }
 
   @post('/technicians')
   @response(200, {
