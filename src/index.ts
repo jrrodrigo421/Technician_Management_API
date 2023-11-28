@@ -21,7 +21,7 @@ if (require.main === module) {
       port: +(process.env.PORT ?? 3030),
       host: process.env.HOST,
 
-      gracePeriodForClose: 5000, // 5 seconds
+      gracePeriodForClose: 5000,
       openApiSpec: {
         setServersFromRequest: true,
       },
