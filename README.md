@@ -59,3 +59,6 @@ Open http://127.0.0.1:3030/explorer in your browser to check the API documentati
 ```sh
 npm test
 ```
+
+
+![Tela de Consulta](./public/homepng.png)
