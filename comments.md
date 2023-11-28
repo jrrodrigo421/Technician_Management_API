@@ -4,7 +4,7 @@ Projeto fullstack que permite o controle dos técnicos cadastrados no sistema e 
 
 Técnologias:
 
-- Front End: React JS 
+- Front End: React JS
 - API: NodeJS (loopback/express)
 - Banco de Dados: SQL Server
 
@@ -27,7 +27,11 @@ Futuros pontos de melhoria:
 - Arquitetura do Front;
 
 
-![Tela de Consulta](./public/homepng.png)
+<br>
+<br>
+<br>
 
+## Tela de Consulta:
+![Tela de Consulta](./public/home.png)
 
 
