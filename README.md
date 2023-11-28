@@ -62,7 +62,6 @@ npm test
 
 <br>
 <br>
-<br>
 
-## Tela de Consulta:
-![Tela de Consulta](./public/home.png)
+## API testing using Insomnia:
+![Tela de Consulta](./public/api.png)
