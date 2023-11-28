@@ -8,7 +8,7 @@ This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/
 **Clone repository:**
 ```sh
 git clone https://github.com/jrrodrigo421/control_of_technical_assistance_partner_companies
-cd seu-projeto
+cd control_of_technical_assistance_partner_companies
 ```
 
 ## Install dependencies
